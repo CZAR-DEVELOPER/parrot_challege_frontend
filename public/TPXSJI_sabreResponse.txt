@@ -1,0 +1,351 @@
+<200 OK OK,[{id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=Content-Length, value=1484}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=date, value=Wed, 16 Apr 2025 17:47:44 GMT}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=3, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI"/></eb:From><eb:To><eb:PartyId eb:type="URI"/></eb:To><eb:CPAId>AM</eb:CPAId><eb:ConversationId>2025-04-16T08:02:09Z-8Vvjck870N4tNvy3</eb:ConversationId><eb:Service>SabreCommandLLSRQ</eb:Service><eb:Action>SabreCommandLLSRS</eb:Action><eb:MessageData><eb:MessageId>3338870640641150630</eb:MessageId><eb:Timestamp>2025-04-16T17:47:44</eb:Timestamp></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SabreCommandLLSRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.0.0">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:44Z">
+   <stl:SystemSpecificResults/>
+  </stl:Success>
+ </stl:ApplicationResults>
+ <Response>IGD </Response>
+</SabreCommandLLSRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=date, value=Wed, 16 Apr 2025 17:47:44 GMT}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=Content-Length, value=1518}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=3, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI"/></eb:From><eb:To><eb:PartyId eb:type="URI"/></eb:To><eb:CPAId>AM</eb:CPAId><eb:ConversationId>2025-04-16T08:02:09Z-8Vvjck870N4tNvy3</eb:ConversationId><eb:Service>SabreCommandLLSRQ</eb:Service><eb:Action>SabreCommandLLSRS</eb:Action><eb:MessageData><eb:MessageId>3338871640642470630</eb:MessageId><eb:Timestamp>2025-04-16T17:47:44</eb:Timestamp></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SabreCommandLLSRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.0.0">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:44Z">
+   <stl:SystemSpecificResults/>
+  </stl:Success>
+ </stl:ApplicationResults>
+ <Response>AAA SET UP FOR MEX  AM MEX  AA 1111199</Response>
+</SabreCommandLLSRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=Content-Length, value=1549}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=date, value=Wed, 16 Apr 2025 17:47:44 GMT}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=3, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI"/></eb:From><eb:To><eb:PartyId eb:type="URI"/></eb:To><eb:CPAId>AM</eb:CPAId><eb:ConversationId>2025-04-16T08:02:09Z-8Vvjck870N4tNvy3</eb:ConversationId><eb:Service>SabreCommandLLSRQ</eb:Service><eb:Action>SabreCommandLLSRS</eb:Action><eb:MessageData><eb:MessageId>3338462640643820640</eb:MessageId><eb:Timestamp>2025-04-16T17:47:44</eb:Timestamp></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SabreCommandLLSRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.0.0">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:44Z">
+   <stl:SystemSpecificResults/>
+  </stl:Success>
+ </stl:ApplicationResults>
+ <Response>MEX.HDQ4NBI...A..4NBI NOT SIGNED OUT..AM    AM MEX  AA 1111199       </Response>
+</SabreCommandLLSRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=date, value=Wed, 16 Apr 2025 17:47:45 GMT}, {key=Content-Length, value=11753}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=3, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI"/></eb:From><eb:To><eb:PartyId eb:type="URI"/></eb:To><eb:CPAId>AM</eb:CPAId><eb:ConversationId>2025-04-16T08:02:09Z-8Vvjck870N4tNvy3</eb:ConversationId><eb:Service>SabreCommandLLSRQ</eb:Service><eb:Action>SabreCommandLLSRS</eb:Action><eb:MessageData><eb:MessageId>3337735640645300380</eb:MessageId><eb:Timestamp>2025-04-16T17:47:45</eb:Timestamp></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SabreCommandLLSRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.0.0">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:45Z">
+   <stl:SystemSpecificResults/>
+  </stl:Success>
+ </stl:ApplicationResults>
+ <Response>TPXSJI
+ 1.1BARAKAT/MUNIR
+ 1 AM 901L 07MAY W MTYMEX HK1   545A  730A /E
+ 2 AM 998L 08MAY Q NLUMTY HK1   840P 1022P /E
+     /OPERATED BY AEROLITORAL DBA AEROMEXICO CONNECT
+TKT/TIME LIMIT
+  1.T-16APR
+  2.TE 1393489514503 BARAK/M SYSSYS 1215/16APR*
+VCR COUPON DATA EXISTS  *VI TO DISPLAY
+TICKETING DATA EXISTS - *T TO DISPLAY
+FREQUENT TRAVELER
+  1.AM 813069309            NO AM   1.1 BARAKAT/MUNIR
+       INVLD ACCT NUMBER
+AM FACTS
+  1.SSR CTCM AM HK1/528110203040
+  2.SSR CTCE AM HK1/GARM1218//GMAIL.COM
+  3.OSI AM CTCB MTY5281338907 B
+  4.OSI AM CTCP MTY528110203040 M 1.1
+GENERAL FACTS
+  1.OSI YY PNR CORPORATE PRIORITY
+  2.OSI YY PNR CORPORATE PRIORITY
+  3.OSI YY PNR CORPORATE PRIORITY
+  4.OSI YY PNR CORPORATE PRIORITY
+  5.OSI YY PNR CORPORATE PRIORITY
+  6.OSI YY PNR CORPORATE PRIORITY
+  7.OSI YY PNR CORPORATE PRIORITY
+  8.OSI YY PNR CORPORATE PRIORITY
+  9.OSI YY PNR CORPORATE PRIORITY
+ 10.OSI YY PNR CORPORATE PRIORITY
+ 11.OSI YY PNR CORPORATE PRIORITY
+ 12.OSI YY PNR CORPORATE PRIORITY
+ 13.OSI YY PNR CORPORATE PRIORITY
+ 14.OSI YY PNR CORPORATE PRIORITY
+ 15.OSI YY PNR CORPORATE PRIORITY
+ 16.OSI YY PNR CORPORATE PRIORITY
+ 17.OSI YY PNR CORPORATE PRIORITY
+ 18.OSI YY PNR CORPORATE PRIORITY
+ 19.OSI YY PNR CORPORATE PRIORITY
+ 20.OSI YY PNR CORPORATE PRIORITY
+ 21.OSI YY PNR CORPORATE PRIORITY
+ 22.OSI YY PNR CORPORATE PRIORITY
+ 23.OSI YY PNR CORPORATE PRIORITY
+ 24.OSI YY PNR CORPORATE PRIORITY
+ 25.OSI YY PNR CORPORATE PRIORITY
+ 26.OSI YY PNR CORPORATE PRIORITY
+ 27.OSI YY PNR CORPORATE PRIORITY
+ 28.OSI YY PNR CORPORATE PRIORITY
+ 29.OSI YY PNR CORPORATE PRIORITY
+ 30.OSI YY PNR CORPORATE PRIORITY
+ 31.OSI YY PNR CORPORATE PRIORITY
+ 32.OSI YY PNR CORPORATE PRIORITY
+ 33.OSI YY PNR CORPORATE PRIORITY
+ 34.OSI YY PNR CORPORATE PRIORITY
+ 35.OSI YY PNR CORPORATE PRIORITY
+ 36.OSI YY PNR CORPORATE PRIORITY
+ 37.OSI YY PNR CORPORATE PRIORITY
+ 38.OSI YY PNR CORPORATE PRIORITY
+ 39.OSI YY PNR CORPORATE PRIORITY
+ 40.OSI YY PNR CORPORATE PRIORITY
+ 41.OSI YY PNR CORPORATE PRIORITY
+ 42.OSI YY PNR CORPORATE PRIORITY
+ 43.OSI YY PNR CORPORATE PRIORITY
+ 44.OSI YY PNR CORPORATE PRIORITY
+ 45.OSI YY PNR CORPORATE PRIORITY
+ 46.OSI YY PNR CORPORATE PRIORITY
+ 47.OSI YY PNR CORPORATE PRIORITY
+ 48.OSI YY PNR CORPORATE PRIORITY
+ 49.OSI YY PNR CORPORATE PRIORITY
+ 50.OSI YY PNR CORPORATE PRIORITY
+ 51.OSI YY PNR CORPORATE PRIORITY
+ 52.OSI YY PNR CORPORATE PRIORITY
+ 53.OSI YY PNR CORPORATE PRIORITY
+ 54.OSI YY PNR CORPORATE PRIORITY
+ 55.OSI YY PNR CORPORATE PRIORITY
+ 56.OSI YY PNR CORPORATE PRIORITY
+ 57.OSI YY PNR CORPORATE PRIORITY
+ 58.OSI YY PNR CORPORATE PRIORITY
+ 59.OSI YY PNR CORPORATE PRIORITY
+ 60.OSI YY PNR CORPORATE PRIORITY
+ 61.OSI YY PNR CORPORATE PRIORITY
+ 62.OSI YY PNR CORPORATE PRIORITY
+ 63.OSI YY PNR CORPORATE PRIORITY
+ 64.OSI YY PNR CORPORATE PRIORITY
+ 65.OSI YY PNR CORPORATE PRIORITY
+ 66.OSI YY PNR CORPORATE PRIORITY
+ 67.OSI YY PNR CORPORATE PRIORITY
+ 68.OSI YY PNR CORPORATE PRIORITY
+ 69.OSI YY PNR CORPORATE PRIORITY
+ 70.OSI YY PNR CORPORATE PRIORITY
+ 71.OSI YY PNR CORPORATE PRIORITY
+ 72.OSI YY PNR CORPORATE PRIORITY
+ 73.OSI YY PNR CORPORATE PRIORITY
+ 74.OSI YY PNR CORPORATE PRIORITY
+ 75.OSI YY PNR CORPORATE PRIORITY
+ 76.OSI YY PNR CORPORATE PRIORITY
+ 77.OSI YY PNR CORPORATE PRIORITY
+ 78.OSI YY PNR CORPORATE PRIORITY
+ 79.OSI YY PNR CORPORATE PRIORITY
+ 80.OSI YY PNR CORPORATE PRIORITY
+ 81.OSI YY PNR CORPORATE PRIORITY
+ 82.OSI YY PNR CORPORATE PRIORITY
+ 83.OSI YY PNR CORPORATE PRIORITY
+ 84.OSI YY PNR CORPORATE PRIORITY
+ 85.OSI YY PNR CORPORATE PRIORITY
+ 86.OSI YY PNR CORPORATE PRIORITY
+ 87.OSI YY PNR CORPORATE PRIORITY
+ 88.OSI YY PNR CORPORATE PRIORITY
+ 89.OSI YY PNR CORPORATE PRIORITY
+ 90.OSI YY PNR CORPORATE PRIORITY
+ 91.OSI YY PNR CORPORATE PRIORITY
+ 92.OSI YY PNR CORPORATE PRIORITY
+ 93.OSI YY PNR CORPORATE PRIORITY
+ 94.OSI YY PNR CORPORATE PRIORITY
+ 95.OSI YY PNR CORPORATE PRIORITY
+ 96.OSI YY PNR CORPORATE PRIORITY
+ 97.OSI YY PNR CORPORATE PRIORITY
+ 98.OSI YY PNR CORPORATE PRIORITY
+ 99.OSI YY PNR CORPORATE PRIORITY
+100.OSI YY PNR CORPORATE PRIORITY
+101.OSI YY PNR CORPORATE PRIORITY
+102.OSI YY PNR CORPORATE PRIORITY
+103.OSI YY PNR CORPORATE PRIORITY
+104.OSI YY PNR CORPORATE PRIORITY
+105.OSI YY PNR CORPORATE PRIORITY
+106.OSI YY PNR CORPORATE PRIORITY
+107.OSI YY PNR CORPORATE PRIORITY
+108.OSI YY PNR CORPORATE PRIORITY
+109.OSI YY PNR CORPORATE PRIORITY
+110.OSI YY PNR CORPORATE PRIORITY
+111.OSI YY PNR CORPORATE PRIORITY
+112.OSI YY PNR CORPORATE PRIORITY
+113.OSI YY PNR CORPORATE PRIORITY
+114.OSI YY PNR CORPORATE PRIORITY
+115.OSI YY PNR CORPORATE PRIORITY
+116.OSI YY PNR CORPORATE PRIORITY
+117.OSI YY PNR CORPORATE PRIORITY
+118.OSI YY PNR CORPORATE PRIORITY
+119.OSI YY PNR CORPORATE PRIORITY
+120.OSI YY PNR CORPORATE PRIORITY
+121.OSI YY PNR CORPORATE PRIORITY
+122.OSI YY PNR CORPORATE PRIORITY
+123.OSI YY PNR CORPORATE PRIORITY
+124.OSI YY PNR CORPORATE PRIORITY
+125.OSI YY PNR CORPORATE PRIORITY
+126.OSI YY PNR CORPORATE PRIORITY
+127.OSI YY PNR CORPORATE PRIORITY
+128.OSI YY PNR CORPORATE PRIORITY
+129.OSI YY PNR CORPORATE PRIORITY
+130.OSI YY PNR CORPORATE PRIORITY
+131.OSI YY PNR CORPORATE PRIORITY
+132.OSI YY PNR CORPORATE PRIORITY
+133.OSI YY PNR CORPORATE PRIORITY
+134.OSI YY PNR CORPORATE PRIORITY
+135.OSI YY PNR CORPORATE PRIORITY
+136.OSI YY PNR CORPORATE PRIORITY
+137.OSI YY PNR CORPORATE PRIORITY
+138.OSI YY PNR CORPORATE PRIORITY
+139.OSI YY PNR CORPORATE PRIORITY
+140.OSI YY PNR CORPORATE PRIORITY
+141.OSI YY PNR CORPORATE PRIORITY
+142.OSI YY PNR CORPORATE PRIORITY
+143.OSI YY PNR CORPORATE PRIORITY
+144.OSI YY PNR CORPORATE PRIORITY
+145.OSI YY PNR CORPORATE PRIORITY
+146.OSI YY PNR CORPORATE PRIORITY
+147.OSI YY PNR CORPORATE PRIORITY
+148.OSI YY PNR CORPORATE PRIORITY
+149.OSI YY PNR CORPORATE PRIORITY
+150.OSI YY PNR CORPORATE PRIORITY
+151.OSI YY PNR CORPORATE PRIORITY
+152.OSI YY PNR CORPORATE PRIORITY
+153.OSI YY PNR CORPORATE PRIORITY
+154.OSI YY PNR CORPORATE PRIORITY
+155.OSI YY PNR CORPORATE PRIORITY
+156.OSI YY PNR CORPORATE PRIORITY
+157.OSI YY PNR CORPORATE PRIORITY
+158.OSI YY PNR CORPORATE PRIORITY
+159.OSI YY PNR CORPORATE PRIORITY
+160.OSI YY PNR CORPORATE PRIORITY
+161.OSI YY PNR CORPORATE PRIORITY
+162.OSI YY PNR CORPORATE PRIORITY
+163.OSI YY PNR CORPORATE PRIORITY
+164.OSI YY PNR CORPORATE PRIORITY
+165.OSI YY PNR CORPORATE PRIORITY
+166.OSI YY PNR CORPORATE PRIORITY
+167.OSI YY PNR CORPORATE PRIORITY
+168.OSI YY PNR CORPORATE PRIORITY
+169.OSI YY PNR CORPORATE PRIORITY
+170.OSI YY PNR CORPORATE PRIORITY
+171.OSI YY PNR CORPORATE PRIORITY
+172.OSI YY PNR CORPORATE PRIORITY
+173.OSI YY PNR CORPORATE PRIORITY
+174.OSI YY PNR CORPORATE PRIORITY
+175.OSI YY PNR CORPORATE PRIORITY
+176.OSI YY PNR CORPORATE PRIORITY
+177.OSI YY PNR CORPORATE PRIORITY
+178.OSI YY PNR CORPORATE PRIORITY
+179.OSI YY PNR CORPORATE PRIORITY
+180.OSI YY PNR CORPORATE PRIORITY
+181.OSI YY PNR CORPORATE PRIORITY
+182.OSI YY PNR CORPORATE PRIORITY
+183.OSI YY PNR CORPORATE PRIORITY
+184.OSI YY PNR CORPORATE PRIORITY
+185.OSI YY PNR CORPORATE PRIORITY
+186.OSI YY PNR CORPORATE PRIORITY
+187.OSI YY PNR CORPORATE PRIORITY
+188.OSI YY PNR CORPORATE PRIORITY
+189.OSI YY PNR CORPORATE PRIORITY
+190.OSI YY PNR CORPORATE PRIORITY
+191.OSI YY PNR CORPORATE PRIORITY
+192.OSI YY PNR CORPORATE PRIORITY
+193.OSI YY PNR CORPORATE PRIORITY
+194.OSI YY PNR CORPORATE PRIORITY
+195.OSI YY PNR CORPORATE PRIORITY
+196.OSI YY PNR CORPORATE PRIORITY
+197.OSI YY PNR CORPORATE PRIORITY
+198.OSI YY PNR CORPORATE PRIORITY
+199.OSI YY PNR CORPORATE PRIORITY
+200.OSI YY PNR CORPORATE PRIORITY
+201.OSI YY PNR CORPORATE PRIORITY
+202.OSI YY PNR CORPORATE PRIORITY
+203.OSI YY PNR CORPORATE PRIORITY
+204.OSI YY PNR CORPORATE PRIORITY
+205.OSI YY PNR CORPORATE PRIORITY
+206.OSI YY PNR CORPORATE PRIORITY
+207.OSI YY PNR CORPORATE PRIORITY
+208.OSI YY PNR CORPORATE PRIORITY
+209.OSI YY PNR CORPORATE PRIORITY
+210.OSI YY PNR CORPORATE PRIORITY
+211.OSI YY PNR CORPORATE PRIORITY
+212.OSI YY PNR CORPORATE PRIORITY
+213.OSI YY PNR CORPORATE PRIORITY
+214.OSI YY PNR CORPORATE PRIORITY
+215.OSI YY PNR CORPORATE PRIORITY
+216.OSI YY PNR CORPORATE PRIORITY
+217.OSI YY PNR CORPORATE PRIORITY
+218.OSI YY PNR CORPORATE PRIORITY
+219.OSI YY PNR CORPORATE PRIORITY
+220.OSI YY PNR CORPORATE PRIORITY
+221.OSI YY PNR CORPORATE PRIORITY
+222.OSI YY PNR CORPORATE PRIORITY
+223.OSI YY PNR CORPORATE PRIORITY
+224.OSI YY PNR CORPORATE PRIORITY
+225.OSI YY PNR CORPORATE PRIORITY
+226.OSI YY PNR CORPORATE PRIORITY
+227.OSI YY PNR CORPORATE PRIORITY
+228.OSI YY PNR CORPORATE PRIORITY
+229.OSI YY PNR CORPORATE PRIORITY
+230.OSI YY PNR CORPORATE PRIORITY
+231.OSI YY PNR CORPORATE PRIORITY
+232.OSI YY PNR CORPORATE PRIORITY
+233.OSI YY PNR CORPORATE PRIORITY
+234.OSI YY PNR CORPORATE PRIORITY
+235.OSI YY PNR CORPORATE PRIORITY
+236.OSI YY PNR CORPORATE PRIORITY
+237.OSI YY PNR CORPORATE PRIORITY
+238.OSI YY PNR CORPORATE PRIORITY
+239.OSI YY PNR CORPORATE PRIORITY
+240.OSI YY PNR CORPORATE PRIORITY
+241.OSI YY PNR CORPORATE PRIORITY
+242.OSI YY PNR CORPORATE PRIORITY
+243.OSI YY PNR CORPORATE PRIORITY
+244.OSI YY PNR CORPORATE PRIORITY
+245.OSI YY PNR CORPORATE PRIORITY
+246.OSI YY PNR CORPORATE PRIORITY
+247.OSI YY PNR CORPORATE PRIORITY
+248.OSI YY PNR CORPORATE PRIORITY
+249.OSI YY PNR CORPORATE PRIORITY
+250.OSI YY PNR CORPORATE PRIORITY
+251.OSI YY PNR CORPORATE PRIORITY
+252.OSI YY PNR CORPORATE PRIORITY
+253.OSI YY PNR CORPORATE PRIORITY
+254.OSI YY PNR CORPORATE PRIORITY
+255.OSI YY PNR CORPORATE PRIORITY
+256.OSI YY PNR CORPORATE PRIORITY
+257.OSI YY PNR CORPORATE PRIORITY
+258.OSI YY PNR CORPORATE PRIORITY
+259.OSI YY PNR CORPORATE PRIORITY
+260.OSI YY PNR CORPORATE PRIORITY
+261.OSI YY PNR CORPORATE PRIORITY
+262.OSI YY PNR CORPORATE PRIORITY
+263.OSI YY PNR CORPORATE PRIORITY
+264.OSI YY PNR CORPORATE PRIORITY
+265.OSI YY PNR CORPORATE PRIORITY
+266.OSI YY PNR CORPORATE PRIORITY
+267.OSI YY PNR CORPORATE PRIORITY
+268.OSI YY PNR CORPORATE PRIORITY
+269.OSI YY PNR CORPORATE PRIORITY
+270.OSI YY PNR CORPORATE PRIORITY
+271.OSI YY PNR CORPORATE PRIORITY
+272.OSI YY PNR CORPORATE PRIORITY
+273.OSI YY PNR CORPORATE PRIORITY
+274.OSI YY PNR CORPORATE PRIORITY
+275.OSI YY PNR CORPORATE PRIORITY
+276.OSI YY PNR CORPORATE PRIORITY
+277.OSI YY PNR CORPORATE PRIORITY
+278.OSI YY PNR CORPORATE PRIORITY
+279.OSI YY PNR CORPORATE PRIORITY
+280.OSI YY PNR CORPORATE PRIORITY
+RECEIVED FROM - HDQBB1S141938/DK66AC3CC1000B/F2F1C00000000D64 9
+    F3F4D2F-001
+RECORD LOCATOR - HDQ1SOMQSTE/9G32/86527011/OAX/1S/T/MX
+TTY.TTYRM1S 1438/14APR25 TPXSJI H</Response>
+</SabreCommandLLSRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=date, value=Wed, 16 Apr 2025 17:47:45 GMT}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=Content-Length, value=1490}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=20, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="?">SABRE</eb:PartyId></eb:From><eb:To><eb:PartyId eb:type="?">Aeromexico</eb:PartyId></eb:To><eb:CPAId>?</eb:CPAId><eb:ConversationId>9DB7_921682_1204548352874</eb:ConversationId><eb:Service eb:type="?">SpecialServiceLLSRQ</eb:Service><eb:Action>SpecialServiceLLSRS</eb:Action><eb:MessageData><eb:MessageId>3338506640658970640</eb:MessageId><eb:Timestamp>2025-04-16T17:47:45</eb:Timestamp><eb:RefToMessageId>999999</eb:RefToMessageId></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SpecialServiceRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.3.1">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:45Z"/>
+ </stl:ApplicationResults>
+</SpecialServiceRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=date, value=Wed, 16 Apr 2025 17:47:46 GMT}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=Content-Length, value=2289}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=17, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI">SABRE</eb:PartyId></eb:From><eb:To><eb:PartyId eb:type="URI">Aeromexico</eb:PartyId></eb:To><eb:CPAId>?</eb:CPAId><eb:ConversationId>987654321</eb:ConversationId><eb:Service>EnhancedEndTransactionRQ</eb:Service><eb:Action>EnhancedEndTransactionRS</eb:Action><eb:MessageData><eb:MessageId>133veeg4i</eb:MessageId><eb:Timestamp>2025-04-16T17:47:46</eb:Timestamp><eb:RefToMessageId>999999</eb:RefToMessageId></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><EnhancedEndTransactionRS xmlns="http://services.sabre.com/sp/eet/v1"><ApplicationResults xmlns="http://services.sabre.com/STL_Payload/v02_01" xmlns:ns2="http://services.sabre.com/essm/diagnostic/v1" xmlns:ns3="http://opentravel.org/common/message/v02" xmlns:ns4="http://opentravel.org/common/v02" xmlns:ns5="http://services.sabre.com/STL_Payload/v02_02" xmlns:ns6="http://services.sabre.com/sp/ssp/v1" xmlns:ns7="http://services.sabre.com/essm/core/v1" xmlns:ns8="http://services.sabre.com/STL_Header/v02_02" xmlns:ns9="http://services.sabre.com/STL_Header/v120" xmlns:ns10="http://services.sabre.com/essm/session/v1" xmlns:ns11="http://services.sabre.com/STL_Header/v02_01" xmlns:ns12="http://webservices.sabre.com/servicesplatform/eiapi/1.0.0" xmlns:ns13="http://www.OpenTravel.org/ns/OTA2/AppInfo_v01_00" xmlns:ns14="http://services.sabre.com/sp/preferences/v1" xmlns:ns15="http://services.sabre.com/STL/v01" xmlns:ns16="http://services.sabre.com/ssse/trace/v01" status="Complete"><Success timeStamp="2025-04-16T17:47:46.525Z"/></ApplicationResults><ItineraryRef ID="TPXSJI">
+  <Source CreateDateTime="2025-04-16T12:47"/>
+ </ItineraryRef><Text>OK 1247 TPXSJI</Text></EnhancedEndTransactionRS></soap-env:Body></soap-env:Envelope>}]}, {id=501, url=https://webservices.cert.platform.sabre.com, method={id=2, description=POST}, timeout=200, headers=[{key=Alt-Svc, value=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000}, {key=Via, value=1.1 google}, {key=Content-Length, value=1535}, {key=Referrer-Policy, value=origin-when-cross-origin}, {key=date, value=Wed, 16 Apr 2025 17:47:46 GMT}, {key=Content-Security-Policy, value=default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';}, {key=X-Content-Type-Options, value=nosniff}, {key=Vary, value=Origin,Access-Control-Request-Method,Access-Control-Request-Headers}, {key=X-Frame-Options, value=SAMEORIGIN}, {key=Strict-Transport-Security, value=max-age=31536000}, {key=X-XSS-Protection, value=1; mode=block}, {key=SOAPAction, value=""}, {key=Content-Type, value=text/xml; charset=utf-8}, {key=null, value=HTTP/1.1 200 OK}], bodies=[{id=3, body=<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Header><eb:MessageHeader xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" eb:version="1.0" soap-env:mustUnderstand="1"><eb:From><eb:PartyId eb:type="URI"/></eb:From><eb:To><eb:PartyId eb:type="URI"/></eb:To><eb:CPAId>AM</eb:CPAId><eb:ConversationId>2025-04-16T08:02:09Z-8Vvjck870N4tNvy3</eb:ConversationId><eb:Service>SabreCommandLLSRQ</eb:Service><eb:Action>SabreCommandLLSRS</eb:Action><eb:MessageData><eb:MessageId>3337793640665900380</eb:MessageId><eb:Timestamp>2025-04-16T17:47:46</eb:Timestamp></eb:MessageData></eb:MessageHeader><wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext"><wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/ACPCRTC!ICESMSLB\/CRT.LB!1744812129297!5298!533</wsse:BinarySecurityToken></wsse:Security></soap-env:Header><soap-env:Body><SabreCommandLLSRS xmlns="http://webservices.sabre.com/sabreXML/2011/10" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stl="http://services.sabre.com/STL/v01" Version="2.0.0">
+ <stl:ApplicationResults status="Complete">
+  <stl:Success timeStamp="2025-04-16T17:47:46Z">
+   <stl:SystemSpecificResults/>
+  </stl:Success>
+ </stl:ApplicationResults>
+ <Response>UNABLE TO END TRANSACTION - NO PNR PRESENT IN WORK AREA</Response>
+</SabreCommandLLSRS></soap-env:Body></soap-env:Envelope>}]}],[Content-Type:"application/json;charset=UTF-8", Transfer-Encoding:"chunked", Date:"Wed, 16 Apr 2025 17:47:46 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
