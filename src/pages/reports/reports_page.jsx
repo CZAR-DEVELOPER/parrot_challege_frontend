@@ -15,7 +15,7 @@ const ReportsPage = () => {
       <div className="p-8">
         <h1 className="text-4xl font-medium">Reporte diario</h1>
 
-        <div className="grid grid-cols-3 gap-4 mt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
           <div>
             <label htmlFor="startDate">Fecha de inicio</label>
             <input
