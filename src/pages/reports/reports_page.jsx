@@ -40,6 +40,8 @@ const ReportsPage = () => {
           </div>
         </div>
 
+        <p className="mt-4 text-xl font-bold">Productos vendidos</p>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1  mt-8 gap-4">
           {data.map((item, index) => (
             <CardsComponent key={index} card={item} />
